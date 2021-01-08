@@ -1,0 +1,39 @@
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #333334;
+    color: #BB7021;
+    padding: 10px 2%;
+    z-index: 9999;
+  }
+
+  .sticky > a {
+      padding-left: 2%;
+      text-decoration: none;
+      color: #BB7021;
+      font-size: medium;
+  }
+
+  .sticky > .current-page {
+      
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.container {
+    flex: 1;
+}
+
+iframe {
+    margin-top: 10px;
+}
+
+#dontHover {
+    width: 25%;
+    height: 25%;
+    padding: 15px;
+    background-color: red;
+    text-align: center;
+}
+
